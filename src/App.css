@@ -1,33 +1,84 @@
-.App {
+
+
+.headingMargin{
+  margin: 50px;
+}
+
+.StandardTable thead th{
+    background: lightgray;
+}
+
+.StandardTable thead th:first-of-type{
+    border-top-left-radius: 10px;
+}
+
+.StandardTable thead th:last-of-type{
+    border-top-right-radius: 10px;
+}
+
+.floatRight{
+  float:right;
+}
+
+.imgRadius{
+  border-radius: 50%;
+}
+
+.lineHeight{
+  line-height: 2.5
+}
+
+.hrColor{
+  background-color: black;
+}
+
+.bookingAlign{
+  text-align: center;
+  margin: 25px;
+}
+
+.column.dateDaysalign{
+  display: flex ;
+  margin: inherit;
+}
+
+.datealign{
+  font-size: 33px;
+  font-weight:900;
+}
+
+.daysAlign{
+  line-height: normal;
+  top:8px;
+}
+
+.standardTablewidth{
+  width:100%;
+}
+
+.noteTextalign{
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.tableMargin{
+  margin:auto;
+  width:45%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.flexBoxwidth{
+  width:110%;
 }
 
-.App-link {
-  color: #61dafb;
+.boxheight{
+  height:200px;
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.box.grandtotaldisplay{
+  display:flex;
+  width:529px;
+}
+
+.grandtotalwidth{
+  width: 62%;
 }
